@@ -1,0 +1,17 @@
+#container, #favoritos{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.card, .card-fav{
+    width: 30%; 
+    background-color: aqua;
+    margin:5px;
+    color: #111;
+    padding: 10px;
+}
+
+.card-fav{
+    background-color: blue;
+}
